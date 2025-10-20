@@ -7,8 +7,9 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
   int população = 200000;
-   printf (" população e: %d/n, idade")
+   printf ("população e: %d/n, idade")
   // Área para entrada de dados
+     scanf 
 
   // Área para exibição dos dados da cidade
 
