@@ -44,7 +44,4 @@ int main() {
     
     return 0;
 }
-  // Área para entrada de dados
-     
-
-  // Área para exibição dos dados da cidade
+  
