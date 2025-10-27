@@ -14,6 +14,7 @@
          float Densidade_Populacional_carta1;
          float PIB_per_Capita_carta1;
 
+         Densidade_Populacional_carta1 = população_carta1 / area_km²_carta1;
          PIB_per_Capita_carta1 =(float)PIB_carta1 / população_carta1;
          
         ///--------------declarando variavel carta2--------///
@@ -26,8 +27,10 @@
          float PIB_carta2;
          int pontos_turísticos_carta2;
          float Densidade_Populacional_carta2;
-         
-         float PIB_per_Capita_carta2=(float)PIB_carta2 / população_carta2;
+         float PIB_per_Capita_carta2;
+
+         Densidade_Populacional_carta2 = população_carta2 / area_km²_carta2;
+         PIB_per_Capita_carta2=(float)PIB_carta2 / população_carta2;
          
          ////-------------cadastro de dados carta 1----------///
          
@@ -65,13 +68,13 @@
            
          printf(" ---- cadastro de carta 2----\n");
          printf("Estado (A a H): ");
-         scanf(" %c", &estado_carta2);
+         scanf(" %c",&estado_carta2);
          
          printf("Codigo: ");
-         scanf("%s", &código_carta2);
+         scanf("%s",código_carta2);
          
          printf("Cidade: ");
-         scanf("%s",&cidade_carta2);
+         scanf("%s",cidade_carta2);
          
          printf("População: ");
          scanf("%d",&população_carta2);
@@ -87,7 +90,8 @@
 
          Densidade_Populacional_carta2 = (float)população_carta2 / area_km²_carta2;
          printf("Densidade Populacional Carta");
-         PIB_per_Capita_carta1 =(float)PIB_carta1 / população_carta1;
+
+         PIB_per_Capita_carta1 =(float)PIB_carta2 / população_carta2;
          printf("PIB per Capita e: %.2f", PIB_per_Capita_carta2);
 
            
