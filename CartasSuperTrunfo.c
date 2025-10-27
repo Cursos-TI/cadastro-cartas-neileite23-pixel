@@ -13,7 +13,7 @@
          int pontos_turísticos_carta1;
          float Densidade_Populacional_carta1;
          float PIB_per_Capita_carta1;
-        // PIB per Capita =(float)PIB_carta1 / população_carta1;
+         PIB_per_Capita_carta1 =(float)PIB_carta1 / população_carta1;
          
         ///--------------declarando variavel carta2--------///
          
