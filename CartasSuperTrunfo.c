@@ -11,6 +11,8 @@
          float area_km²_carta1;
          float PIB_carta1;
          int pontos_turísticos_carta1;
+         float Densidade_Populacional_carta1;
+         float PIB_per_Capta_carta1;
          
         ///--------------declarando variavel carta2--------///
          
@@ -21,6 +23,8 @@
          float area_km²_carta2;
          float PIB_carta2;
          int pontos_turísticos_carta2;
+         float Densidade_Populacional_carta2;
+         float PIB_per_Capta_carta2;
          
          ////-------------cadastro de dados carta 1----------///
          
@@ -46,6 +50,12 @@
          printf("Pontos turísticos:");
          scanf ("%d",&pontos_turísticos_carta1);
          
+         printf("Densidade Populacional");
+         scanf("%f",&Densidade_Populacional_carta1);
+
+         printf("PIB per Capta");
+         escaf("%f", &PIB_per_Capta_carta1);
+
          ///--------- area  cadastro de carta 2---------///
            
            
@@ -69,8 +79,14 @@
          scanf("%f",&PIB_carta2);
          
          printf("Pontos turísticos:");
-         scanf ("%d",&pontos_turísticos_carta2);
-           
+         scanf("%d",&pontos_turísticos_carta2);
+
+         printf("Densidade Populacional Carta");
+         scanf("%f",&Densidade_Populacional_carta2);
+
+         printf("PIB per Capta");
+         scanf("%f",&PIB_per_Capita_carta2);
+
            
          /// -------exibir dados da carta 1-----------///
          
@@ -83,8 +99,8 @@
          printf("Área: %.2f km²\n", area_km²_carta1);
          printf("PIB: %.2f bilhões\n", PIB_carta1);
          printf("Pontos Turísticos: %d\n", pontos_turísticos_carta1);
-        
-          
+          printf("densidade populacional: %.2f\n", Densidade_Populacional_carta1);
+          printf("PIB per Capta: %.2f\n", PIB_per_Capita_carta1);
 
 
 
@@ -101,8 +117,8 @@
          printf("Área: %.2f km²\n", area_km²_carta2);
          printf("PIB: %.2f bilhões\n", PIB_carta2);
          printf("Pontos Turísticos: %d\n", pontos_turísticos_carta2);
-         printf("densidade populacional: %.2f\n", densidade_populacional_carta2);
-         printf("PIB per Capta: %.2f\n", PIB_per_Capita_cata2);
+         printf("densidade populacional: %.2f\n", Densidade_Populacional_carta2);
+         printf("PIB per Capta: %.2f\n", PIB_per_Capita_carta2);
           
     
     
