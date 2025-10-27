@@ -1,7 +1,7 @@
 #include <stdio.h> 
 
 
-     //-----------_// declarando variavel dacarta_1///----------
+     ///-----------declarando variavel dacarta 1 ///----------
      
      int main(void) { 
          char estado_carta1;
@@ -12,7 +12,7 @@
          float PIB_carta1;
          int pontos_turísticos_carta1;
          
-   //// --------------declarando variavel carta_2--------///
+        ///--------------declarando variavel carta2--------///
          
          char estado_carta2;
          char código_carta2[30];
@@ -22,7 +22,7 @@
          float PIB_carta2;
          int pontos_turísticos_carta2;
          
-         ///  //-------------cadastro de dados carta 1----------//
+         ////-------------cadastro de dados carta 1----------///
          
          printf(" ---- cadastro de carta 1----\n");
          printf("Estado (A a H): ");
@@ -46,7 +46,7 @@
          printf("Pontos turísticos:");
          scanf ("%d",&pontos_turísticos_carta1);
          
-         ///--------- area  cadastro de carta 2---------//////
+         ///--------- area  cadastro de carta 2---------///
            
            
          printf(" ---- cadastro de carta 2----\n");
@@ -72,7 +72,7 @@
          scanf ("%d",&pontos_turísticos_carta2);
            
            
-         /// exibir dados da carta 1//
+         /// -------exibir dados da carta 1-----------///
          
          printf("--- Cartas Cadastradas ---\n");
         
@@ -83,8 +83,13 @@
          printf("Área: %.2f km²\n", area_km²_carta1);
          printf("PIB: %.2f bilhões\n", PIB_carta1);
          printf("Pontos Turísticos: %d\n", pontos_turísticos_carta1);
+        
+          
 
-             //// area pra exibicao das cartas//////
+
+
+
+        ///------- area pra exibicao das cartas 2------------------///
 
          printf("Cartas Cadastradas\n");
         
@@ -96,8 +101,8 @@
          printf("Área: %.2f km²\n", area_km²_carta2);
          printf("PIB: %.2f bilhões\n", PIB_carta2);
          printf("Pontos Turísticos: %d\n", pontos_turísticos_carta2);
-         
-          
+         printf("densidade populacional: %.2f\n", densidade_populacional_carta2);
+         printf("PIB per Capta: %.2f\n", PIB_per_Capita_cata2);
           
     
     
